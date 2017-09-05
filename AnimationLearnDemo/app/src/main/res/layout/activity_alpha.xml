@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button_view"
+            android:text="补间动画"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:id="@+id/button_property"
+            android:text="属性动画"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relative_move"
+        android:layout_marginTop="20dp"
+        android:background="@color/move_background"
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:layout_height="200dp"></RelativeLayout>
+
+</LinearLayout>

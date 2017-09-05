@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_move"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="m_obj" />
+
+        <Button
+            android:id="@+id/button_property"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="proterty_anim" />
+
+
+        <Button
+            android:id="@+id/button_changechar"
+            android:text="c_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/button_shaddle"
+            android:text="shaddle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <com.example.zz.animationlearndemo.widget.ObjPointView
+        android:id="@+id/obj_point_view"
+        android:layout_width="300dp"
+        android:layout_height="300dp" />
+
+
+    <TextView
+        android:id="@+id/textview_obj_property"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello_World"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+
+    <com.example.zz.animationlearndemo.widget.MyTextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/my_textview"
+        android:text="文本测试"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <ImageView
+        android:id="@+id/imageview_id"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

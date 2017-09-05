@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+    <TextView
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:id="@+id/textview_id"
+        android:text="Hello World"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    
+    
+    
+    <FrameLayout
+        android:padding="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="300dp"
+        android:layout_height="300dp">
+        <Button
+            android:id="@+id/button_menu"
+            android:background="@mipmap/ic_launcher"
+            style="@style/button_menu" />
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/button_item1"
+            android:background="@mipmap/ic_launcher"
+          style="@style/button_item"
+           />
+
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/button_item2"
+            android:background="@mipmap/ic_launcher"
+            style="@style/button_item"
+            />
+
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/button_item3"
+            android:background="@mipmap/ic_launcher"
+            style="@style/button_item"
+            />
+
+    </FrameLayout>
+
+</RelativeLayout>

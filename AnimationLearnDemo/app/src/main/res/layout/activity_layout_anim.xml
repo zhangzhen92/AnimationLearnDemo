@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button_add"
+            android:text="增加数据源"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button_change"
+            android:textAllCaps="false"
+            android:text="Listview/GridView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+    <GridView
+        android:layoutAnimation="@anim/gridview_anim"
+        android:visibility="gone"
+        android:id="@+id/gridview_id"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:columnWidth="60dp"
+        android:numColumns="auto_fit"
+        android:horizontalSpacing="10dp"
+         android:verticalSpacing="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></GridView>
+
+</LinearLayout>

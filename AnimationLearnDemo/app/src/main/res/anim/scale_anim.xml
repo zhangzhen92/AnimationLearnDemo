@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 1______________相对于当前View左侧上方（0,0点位置），x轴 +50px,y轴+50px______________________-->
+
+<!--<scale xmlns:android="http://schemas.android.com/apk/res/android"
+android:fromXScale="0"
+android:toXScale="1"
+android:fromYScale="0"
+android:toYScale="1"
+android:pivotX="50"
+android:pivotY="50"
+android:duration="@integer/animation_duration"
+android:interpolator="@android:anim/bounce_interpolator"
+/>-->
+<!--_______________________1_____________end______________________________________________________-->
+
+
+<!--2____________________相对于当前控件View坐上角+当前View宽度和高度的50%作为起始点___________________________________-->
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="@integer/animation_duration"
+    android:fromXScale="0"
+    android:fromYScale="0"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:toXScale="1"
+    android:toYScale="1"
+    android:repeatCount="1"
+    android:fillAfter="true"
+    android:repeatMode="reverse"
+    />
+
+<!--2——————————————————————————end————————————————————-->
+
+<!--3——————当前View的左上角+父控件的50%作为起始点位置——————-->
+<!--<scale xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="@integer/animation_duration"
+    android:fromXScale="0"
+    android:fromYScale="0"
+    android:pivotX="50%p"
+    android:pivotY="50%p"
+    android:toXScale="1"
+    android:toYScale="1" />-->
